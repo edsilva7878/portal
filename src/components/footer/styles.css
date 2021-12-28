@@ -1,0 +1,11 @@
+.footer{
+    position: relative;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    font-family: Dosis;
+}
+

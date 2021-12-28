@@ -1,0 +1,58 @@
+.header{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elements{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    height: 18vh;
+    width: 9vw;
+    border-radius: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid white;
+    border-width: 1px;
+    color: purple;
+    width: 10vw;
+    height: 3vh;
+    margin: 5px;
+    font-family: Roboto;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+.tel{
+    width: 8.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email{
+    width: 14vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prof{
+    width: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

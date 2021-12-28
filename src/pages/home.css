@@ -1,0 +1,103 @@
+  
+*{
+    margin:0;
+    padding:0;
+}
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+.login{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+}
+input{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid white;
+    border-width: 1px;
+    color: purple;
+    width: 15vw;
+    height: 5vh;
+    margin: 2px;
+    font-family: Roboto;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+input::placeholder{
+    color: purple;
+}
+.btnEntrar{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: solid white;
+    border-width: 1px;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    font-family: Roboto;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.btnEntrar:hover{
+    background-color: white;
+    color: purple;
+}
+.top{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.topElements{
+    position: relative;
+    width: 55vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    position: relative;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: rgb(128, 0, 128);
+    font-family: Felix Titling;
+}
+.footer{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    font-family: Felix Titling;
+
+}
+
